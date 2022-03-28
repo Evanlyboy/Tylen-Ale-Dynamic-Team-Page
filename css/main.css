@@ -1,0 +1,42 @@
+.text {
+    text-align: center;
+    font-size: 3em;
+}
+
+.bgColour {
+    background-color: grey;
+}
+
+.padding {
+    padding: 2em;
+}
+
+.box {
+    height: 500px;
+    width: 500px;
+}
+
+.img {
+    height: 350px;
+    width: 350px;
+}
+
+/*------------ Grid Items ------------*/
+
+.head, .main > *, .foot {
+    display: grid;
+       grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr;
+ }
+
+ .one-item {
+    display: grid;
+    grid-column: 2 / span 2;
+    grid-template-columns: 1fr;
+ }
+
+ .two-items {
+    display: grid;
+    grid-column: 2 / span 2;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+ }
