@@ -1,7 +1,10 @@
 (() => {
 
     const personInfo = document.querySelector(".personInfo"),
-    Info = document.querySelectorAll(".box");
+    Info = document.querySelectorAll(".box"),
+    button = document.querySelector("button"),
+    Evan = document.querySelector("#Evan")
+    Matt = document.querySelector("#Matt");
 
     const personData = [
         "Hi There",
