@@ -63,9 +63,14 @@ button :hover {
     font-size: 48px;
 }
 
-.employees {
+.employeeBox {
+    display: flex;
+}
+
+.hiddenEmployees {
     display: none;
 }
+
 
 /*------------ Grid Items ------------*/
 
