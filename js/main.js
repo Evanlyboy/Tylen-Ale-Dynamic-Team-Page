@@ -1,6 +1,5 @@
 (() => {
 
-    const personInfo = document.querySelector(".personInfo"),
     Info = document.querySelectorAll(".box"),
     employeeBox = document.querySelector(".employeeBox"),
     hiddenEmployees = document.querySelector(".hiddenEmployees"),
@@ -11,8 +10,7 @@
 
     const personData = [
         "Hi There",
-
-        "Evan Info Here",
+        "Evan is the guy who built the code",
     ];
 
     function playInfo() {
@@ -21,20 +19,32 @@
         personInfo.textContent = personData[index];
     }
 
-    function showEvan() {
+    function childChecker() {
+                    // if there is more than one child in the employeebox, get rid of it
         if(employeeBox.childElementCount > 0) {
             hiddenEmployees.appendChild(employeeBox.firstElementChild);
             console.log("traceback online");
+            // yeah, punt that child. fucker.
         }
+        
+    }
+
+    function showEvan() {
+        childChecker();
+        // get the specific info we need from the array
+        let currentInfo = document.createTextNode(personData[1]);
+        // target the specific personinfo within the evanbox
+        let personInfo = document.getElementById("EvanBox").getElementsByClassName("personInfo")[0];
+        // add the array information
+        personInfo.append(currentInfo);
+        // make everything visible
         employeeBox.appendChild(EvanBox);
+        
 
     }
 
     function showMatt() {
-        if(employeeBox.childElementCount > 0) {
-            hiddenEmployees.appendChild(employeeBox.firstElementChild);
-            console.log("traceback online");
-        }
+        childChecker();
         employeeBox.appendChild(MattBox);
     }
 
@@ -50,7 +60,7 @@
     // }
 
     Info.forEach(box => box.addEventListener("click", playInfo));
-    // when button is clicked, changeinfo
+    // when button is clicked, run the fucntion of the targetted person
     buttonEvan.addEventListener("click", showEvan);
     buttonMatt.addEventListener("click", showMatt);
 
