@@ -1,10 +1,11 @@
 .text {
     text-align: center;
     font-size: 3em;
+    font-family: 'Lexend', sans-serif;
 }
 
 .bgColour {
-    background-color: grey;
+    background-color: rgb(81, 81, 81);
 }
 
 .padding {
@@ -21,12 +22,69 @@
     width: 350px;
 }
 
+button {
+    font-size: 32px;
+    margin: 1em;
+    border-radius: 2em;
+    padding: .5em 3em;
+    background-color: orange;
+}
+
+button :hover {
+    font-size: 32px;
+    margin: 1em;
+    border-radius: 2em;
+    padding: .5em 3em;
+    background-color: red;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    margin: 0em 0em 2em 0em;
+    padding: 1em;
+}
+
+.main {
+    background-color: grey;
+}
+
+.intro {
+    display: flex;
+}
+
+.intro h2 {
+    font-size: 48px;
+}
+
+.employeeBox {
+    display: flex;
+}
+
+.hiddenEmployees {
+    display: none;
+}
+
+.flexCenter {
+    justify-content: center;
+    align-items: center;
+}
+
+
 /*------------ Grid Items ------------*/
 
-.head, .main > *, .foot {
+/* .head, .main > *, .foot {
     display: grid;
        grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr;
- }
+ } */
 
  .one-item {
     display: grid;
