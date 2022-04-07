@@ -14,13 +14,13 @@
     // Arrays
     const MattData = [
         0,
-        "Hi There",
+        "Matthew is the guy that styled the whole thing. He is also a really cool guy and is super fun to hang out with. He considers himself more of a designer as a developer as he can never get his javascript to work properly. He loves using the adobe products, and thinks that chocolate chip cookies are better than oreos",
         "chad.jpg",
     ]
 
     const EvanData = [
         1,
-        "Evan is the guy who built the JS code. He is a really cool guy and takes what he does pretty seriously. Can do things exceptionally well and inhumanely fast; just not on command. Doesn't have any time or energy for anything he isn't interested in. Likes a good story, making cool stuff, and Oreos.",
+        "Evan is the guy who built the JS code. He is a really cool guy and takes what he does pretty seriously. He can do things exceptionally well and inhumanely fast; just not on command. He doesn't have any time or energy for anything he isn't interested in. Evan enjoys a good story, making cool stuff, and Oreos.",
         "evaNFT.jpg"
     ]
 

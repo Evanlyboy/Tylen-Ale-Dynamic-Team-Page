@@ -1,20 +1,53 @@
 .text {
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: 'Lexend', sans-serif;
 }
 
-.bgColour {
-    background-color: rgb(81, 81, 81);
+.text2 {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Lexend', sans-serif;
 }
 
-.padding {
-    padding: 2em;
+.text3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bgColour {
+    background-color: #263371;
+}
+
+.centerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    padding: 1em;
+    color: white;
+}
+
+header h2 {
+    transition: all .3s linear 0s;
+}
+
+header h2:hover {
+    color: #e11d3e;
 }
 
 .box {
     height: 500px;
     width: 500px;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.padding2 {
+    padding: 0 10px 0 10px
 }
 
 .img {
@@ -25,17 +58,19 @@
 button {
     font-size: 32px;
     margin: 1em;
-    border-radius: 2em;
-    padding: .5em 3em;
-    background-color: orange;
+    padding: .5em 1em;
+    transition: all .3s linear 0s;
+    background-color: #e11d3e;
+    color: white;
 }
 
-button :hover {
+button:hover {
     font-size: 32px;
     margin: 1em;
     border-radius: 2em;
     padding: .5em 3em;
-    background-color: red;
+    background-color: #ffd107;
+    color: black;
 }
 
 .buttons {
@@ -48,13 +83,17 @@ button :hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: purple;
+    background-color: #263371;
     margin: 0em 0em 2em 0em;
     padding: 1em;
 }
 
+.white {
+    color: white;
+}
+
 .main {
-    background-color: grey;
+    background-color: #1b1933;
 }
 
 .intro {
