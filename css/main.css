@@ -1,6 +1,7 @@
 .text {
     text-align: center;
     font-size: 3em;
+    font-family: 'Lexend', sans-serif;
 }
 
 .bgColour {
@@ -45,8 +46,11 @@ button :hover {
 
 .header {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: purple;
-    margin: 2em;
+    margin: 0em 0em 2em 0em;
+    padding: 1em;
 }
 
 .main {
@@ -55,8 +59,6 @@ button :hover {
 
 .intro {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .intro h2 {
@@ -69,6 +71,11 @@ button :hover {
 
 .hiddenEmployees {
     display: none;
+}
+
+.flexCenter {
+    justify-content: center;
+    align-items: center;
 }
 
 
