@@ -20,7 +20,7 @@
 
     const EvanData = [
         1,
-        "Evan is the guy who built the code",
+        "Evan is the guy who built the JS code. He is a really cool guy and takes what he does pretty seriously. Can do things exceptionally well and inhumanely fast; just not on command. Doesn't have any time or energy for anything he isn't interested in. Likes a good story, making cool stuff, and Oreos.",
         "evaNFT.jpg"
     ]
 
