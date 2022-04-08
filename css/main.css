@@ -11,7 +11,8 @@
 }
 
 .text3 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 2;
 }
 
 .bgColour {
@@ -38,8 +39,8 @@ header h2:hover {
 }
 
 .box {
-    height: 500px;
     width: 500px;
+    padding: 2em;
 }
 
 .padding {
