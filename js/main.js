@@ -151,7 +151,7 @@
          let newSrc = rickBox.getElementsByClassName("centerImg")[0];
         newSrc.src = `https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&controls=0&mute=0`
 
-        // troll
+        // prank
          employeeBox.appendChild(rickBox);
     }
 
