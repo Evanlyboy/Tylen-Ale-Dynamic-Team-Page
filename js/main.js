@@ -42,6 +42,7 @@
             personInfo.innerHTML = "";
             console.log("String deleter online");
         }
+        document.querySelector(`#RickBox`).getElementsByClassName("centerImg")[0].src = `https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&controls=0&mute=1`
     }
 
     // A conversion function that will take the name from the button and return an array based on that name
@@ -140,15 +141,17 @@
     function showRick() {
         childChecker();
 
-         // set the ID of the Div we want to move
+        // set the ID of the Div we want to move
          let rickBox = document.querySelector(`#RickBox`);
 
-         // target the specific personinfo within the nameBox
+        // target the specific personinfo within the nameBox
          personInfo = rickBox.getElementsByClassName("personInfo")[0];
 
+        // unmute the video
          let newSrc = rickBox.getElementsByClassName("centerImg")[0];
         newSrc.src = `https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&controls=0&mute=0`
 
+        // troll
          employeeBox.appendChild(rickBox);
     }
 
